@@ -182,6 +182,7 @@ symes.check_point2()
 print("End Stage One")
 time.sleep(5)
 
+#Stage Two
 print("Stage Two: Final Glimpse")
 
 orwell.person_of_interest('Kaylee')
@@ -221,3 +222,19 @@ symes.check_point3()
 
 print("End Stage Two")
 time.sleep(5)
+
+# Stage Three
+print("Stage Three: Decision")
+
+symes.turn_in()
+time.sleep(10)
+
+orwell.conclude()
+time.sleep(2)
+
+print('Here is a list to remind you of the suspects you found')
+print(persons_of_interest)
+
+time.sleep(2)
+
+report_conclusion()
