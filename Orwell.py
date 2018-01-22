@@ -40,7 +40,7 @@ class Supervisor(object):
         print (f"{self.name}:This is a very interesting piece of evidence, keep working with it to see where is goes.")
 
     def check_point2(self):
-        print(f"{self.name}: Strange isn't not sure how it all connects but something doesn't completely check out.")
+        print(f"{self.name}: Strange, not sure how it all connects but something doesn't completely check out.")
 
     def check_point3(self):
         print(f"{self.name}: Seems like thats all the info the Orwell picked up. Time to put it all together now.")
@@ -177,5 +177,47 @@ if proceed == 'no':
 else:
     time.sleep(2)
 
-print("End Stage One")
+symes.check_point2()
 
+print("End Stage One")
+time.sleep(5)
+
+print("Stage Two: Final Glimpse")
+
+orwell.person_of_interest('Kaylee')
+suspect3_info()
+
+time.sleep(10)
+
+#Things picked up by orwell
+orwell.new_info()
+print (""" Article Written to YSpace - By Kay_Lee Moral \" How They Think of Us \"
+A friend of mine was arrested during the protest, were they violent in their action,maybe. Was it deserved, certainly.
+The mental hospitals are almost at capacity, are these people crazy,maybe. Are these numbers new, certainly.
+Paranoia is up, Protest is up, and they seem to think that all these protesters suffer from the same paranoia. These people are not crazy -
+their nation has broken them. These protestors aren't violent, they are doing what is necessary. But they don't think that, they think of
+us the people, as their enemy, that they will babysit from a far until they make their move.""")
+
+time.sleep(10)
+
+print("""  --- BREAKING NEWS --- BREAKING NEWS ---
+Investigators have uncovered a note pinned to the statue remains. It is reported to have said \"Wish it was me\" with a strange face
+resembling a smiley face wit the eyes crossed out. It is signed by - the yspace truth -. Any information or leads related to the case are
+appreciated at this time.
+--- BREAKING NEWS --- BREAKING NEWS --- """)
+
+time.sleep(5)
+
+orwell.new_info()
+print("Call opening between Rena and Kaylee")
+print(""" Rena: I think I need to get out of town - Kaylee: What? Why?
+Rena: I got off the trolley and my neighbors were giving me strange looks - Kaylee: Its just the high alert that has people scared
+Kaylee: Im sure it will be better later. - Rena: Dont think i can take the chance. gtg""")
+print("End Call")
+
+time.sleep(15)
+
+symes.check_point3()
+
+print("End Stage Two")
+time.sleep(5)
